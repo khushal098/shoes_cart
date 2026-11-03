@@ -2,13 +2,13 @@ import { useState } from "react";
 import "./App.css";
 
 const SHOES = [
-  { id: 1, name: "White Casual Sneaker", price: 70, image: "public/images/white-casual-sneaker.jpeg" },
-  { id: 2, name: "MACTREE Men's Mid Top Ankle Boots", price: 90, image: "public/images/mactree-boots.jpeg" },
-  { id: 3, name: "Campus Men's Sneakers", price: 50, image: "public/images/139405440.jpeg" },
-  { id: 4, name: "Campus Men's OG-03 Sneakers", price: 75, image: "public/images/Campus Men's OG-03 Sneakers.jpeg" },
-  { id: 5, name: "ASIAN Men's Sports Shoes", price: 68, image: "public/images/ASIAN Mens Thar-13 Sneaker.jpeg" },
-  { id: 6, name: "ASIAN Mens Thar-13 Sneaker", price: 120, image: "public/images/ASIAN Men's Sports Shoes.jpeg" },
-  { id: 7, name: "ASIAN Men's AIRWEAVE-02 Sports Shoes", price: 40, image: "public/images/campus-sneakers.jpeg" },
+  { id: 1, name: "White Casual Sneaker", price: 70, image: "images/white-casual-sneaker.jpeg" },
+  { id: 2, name: "MACTREE Men's Mid Top Ankle Boots", price: 90, image: "images/mactree-boots.jpeg" },
+  { id: 3, name: "Campus Men's Sneakers", price: 50, image: "images/139405440.jpeg" },
+  { id: 4, name: "Campus Men's OG-03 Sneakers", price: 75, image: "images/campus-og-03.jpeg" },
+  { id: 5, name: "ASIAN Men's Sports Shoes", price: 68, image: "images/asian-thar-13.jpeg" },
+  { id: 6, name: "ASIAN Mens Thar-13 Sneaker", price: 120, image: "images/asian-sports-shoes.jpeg" },
+  { id: 7, name: "ASIAN Men's AIRWEAVE-02 Sports Shoes", price: 40, image: "images/campus-sneakers.jpeg" },
 ];
 
 export default function App() {
